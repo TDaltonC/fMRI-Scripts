@@ -1,9 +1,9 @@
 clear all
 
-basedir = 'C:\fMRI data\DCJ\SPM\data';
+basedir = '/Users/Dalton/Documents/MATLAB/DCJ/SPM/data';
 
 Subj = [1];
-nRun  = 4;
+nRun  = 1;
 
 for cSubj = Subj
     for cRun = 1:nRun

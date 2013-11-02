@@ -1,11 +1,11 @@
-% clear all
+clear all
 
-statdir  = 'E:\Data\Jarek\DCJ\SPM\stat\Model_0001';
-contrast = 'con_0002';
+statdir  = '/Users/Dalton/Documents/MATLAB/GARP/fMRI/GARP/stat/Model_0004';
+contrast = 'con_0001';
 
-% Load preproc template
+% Load template
 %--------------------------------------------------------------------------
-load('template_stat_RFX_OnseSampleTtest');
+load('RFX_OnseSampleTtest.mat');
 
 % Make jobs
 %--------------------------------------------------------------------------

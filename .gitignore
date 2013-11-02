@@ -1,0 +1,7 @@
+*.img
+*.hdr
+SPM.mat
+*FFX.mat
+*RFX.mat
+*logRun*
+*/Data/*
